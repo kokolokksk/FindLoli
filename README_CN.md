@@ -1,4 +1,4 @@
-[English](https://github.com/kokolokksk/FindLoli/blob/main/README_CN.md)|中文
+[English](https://github.com/kokolokksk/FindLoli)|中文
 # FindLoli
 catch it
 ## 目的
