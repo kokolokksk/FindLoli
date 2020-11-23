@@ -1,3 +1,4 @@
+English|[中文](https://github.com/kokolokksk/FindLoli/blob/main/README_CN.md)
 # FindLoli
 catch it
 ## Purpose
