@@ -9,7 +9,7 @@ def auth():
 
 #TODO 使用外部输入id
 def create_url():
-    tweet_fields = "tweet.fields=lang,author_id"
+    tweet_fields = "expansions=attachments.media_keys&media.fields=duration_ms,height,media_key,preview_image_url,public_metrics,type,url,width&tweet.fields=lang,author_id,source"
     # Tweet fields are adjustable.
     # Options include:
     # attachments, author_id, context_annotations,
@@ -17,7 +17,7 @@ def create_url():
     # in_reply_to_user_id, lang, non_public_metrics, organic_metrics,
     # possibly_sensitive, promoted_metrics, public_metrics, referenced_tweets,
     # source, text, and withheld
-    ids = "ids=1278747501642657792,1255542774432063488"
+    ids = "ids=1278747501642657792,1255542774432063488,1263145271946551300"
     # You can adjust ids to include a single Tweets.
     # Or you can add to up to 100 comma-separated IDs
     url = "https://api.twitter.com/2/tweets?{}&{}".format(ids,tweet_fields)
